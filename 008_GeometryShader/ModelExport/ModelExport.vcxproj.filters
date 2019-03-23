@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Executes\Export.h">
+      <Filter>Excutes</Filter>
+    </ClInclude>
+    <ClInclude Include="Assimp\Type.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Assimp\Loader.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Executes\Export.cpp">
+      <Filter>Excutes</Filter>
+    </ClCompile>
+    <ClCompile Include="Assimp\Loader.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Excutes">
+      <UniqueIdentifier>{d50e5a95-0f5f-4ef3-80ee-bb32fa473b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp">
+      <UniqueIdentifier>{73ef5c07-1a9d-43d9-a15c-204e6a224a52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
